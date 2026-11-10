@@ -68,8 +68,8 @@ Este proyecto está configurado para deploy estático en Netlify.
 
 ## Enlaces
 
-- **Repositorio**: [GitHub](https://github.com/)
-- **Landing publicada**: [Netlify](https://netlify.com/)
+- **Repositorio**: [GitHub](https://github.com/Emmanuel-Valdez/matchdeverdad-landing)
+- **Landing publicada**: [Netlify](https://netlify.com/) (pendiente de deploy)
 
 ## Entrega
 
