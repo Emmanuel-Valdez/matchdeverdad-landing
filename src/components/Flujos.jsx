@@ -3,7 +3,7 @@ function Flujos() {
     <section id="flujos" className="section-light">
       <div className="flujos-inner">
         <h2 className="section-heading">Diagramas de flujo</h2>
-        
+
         <div className="diagramas-grid">
           <div className="diagrama-card">
             <h3>R3 — Condiciones para invitar</h3>
