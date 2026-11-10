@@ -13,18 +13,18 @@
 
 ## 3. Hero / Presentación de startup
 
-- [ ] 3.1 Crear sección `#inicio` (hero) con fondo canvas-dark (`#0b2a6b`), logo completo (`S07.webp`, max-width 450px), nombre "Matchdeverdad", descripción del servicio, bloque "Permiso para invitar" y etiqueta "Grupo 26 · IFTS 29 · 2026"; verificar que todos los elementos son visibles y legibles
-- [ ] 3.2 Agregar botón CTA pill amarillo ("Ver propuestas") que navega a `#propuestas`; verificar que el botón tiene 48px de alto, fondo `#f5c400`, texto `#0b2a6b`, `rounded-full`, y es clickeable
+- [x] 3.1 Crear sección `#inicio` (hero) con fondo canvas-dark (`#0b2a6b`), logo completo (`S07.webp`, max-width 450px), nombre "Matchdeverdad", descripción del servicio, bloque "Permiso para invitar" y etiqueta "Grupo 26 · IFTS 29 · 2026"; verificar que todos los elementos son visibles y legibles
+- [x] 3.2 Agregar botón CTA pill amarillo ("Ver propuestas") que navega a `#propuestas`; verificar que el botón tiene 48px de alto, fondo `#f5c400`, texto `#0b2a6b`, `rounded-full`, y es clickeable
 
 ## 4. Sentencias originales
 
-- [ ] 4.1 Crear sección `#sentencias` con fondo canvas-light (`#ffffff`), mostrando R3 y R4 con su redacción literal del `Trabajo práctico — Matchdeverdad.md`; verificar que el texto coincide exactamente con la fuente
-- [ ] 4.2 Estilizar las sentencias con tipografía Manrope 18px, color `#0b2a6b`, y separar R3/R4 con un divisor sutil (`hairline-light`); verificar legibilidad
+- [x] 4.1 Crear sección `#sentencias` con fondo canvas-light (`#ffffff`), mostrando R3 y R4 con su redacción literal del `Trabajo práctico — Matchdeverdad.md`; verificar que el texto coincide exactamente con la fuente
+- [x] 4.2 Estilizar las sentencias con tipografía Manrope 18px, color `#0b2a6b`, y separar R3/R4 con un divisor sutil (`hairline-light`); verificar legibilidad
 
 ## 5. Propuestas
 
-- [ ] 5.1 Crear sección `#propuestas` con fondo canvas-dark, dos tarjetas (rounded-md 8px, fondo `#123c8c`, padding 24px): "Asistente de invitaciones" (R3) y "Asistente de autorizaciones" (R4); verificar que ambas tarjetas son visibles con título, explicación del agente, herramientas, beneficio e intervención humana
-- [ ] 5.2 Copiar el contenido de cada propuesta desde `Trabajo práctico — Matchdeverdad.md` (secciones R3 y R4 corregidas) y verificar que coincide con la fuente actualizada
+- [x] 5.1 Crear sección `#propuestas` con fondo canvas-dark, dos tarjetas (rounded-md 8px, fondo `#123c8c`, padding 24px): "Asistente de invitaciones" (R3) y "Asistente de autorizaciones" (R4); verificar que ambas tarjetas son visibles con título, explicación del agente, herramientas, beneficio e intervención humana
+- [x] 5.2 Copiar el contenido de cada propuesta desde `Trabajo práctico — Matchdeverdad.md` (secciones R3 y R4 corregidas) y verificar que coincide con la fuente actualizada
 
 ## 6. Diagramas de flujo
 

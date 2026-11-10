@@ -1,35 +1,37 @@
 import Layout from './components/Layout'
+import Hero from './components/Hero'
+import Sentencias from './components/Sentencias'
+import Propuestas from './components/Propuestas'
 
 function App() {
   return (
     <Layout>
-      <section id="inicio" style={{ minHeight: '50vh', padding: '64px 24px', background: '#0b2a6b', color: '#fff' }}>
-        <h1>Matchdeverdad</h1>
-        <p>Hero — pendiente</p>
+      <Hero />
+      <Sentencias />
+      <Propuestas />
+      <section id="flujos" className="section-light">
+        <div className="section-inner">
+          <h2 className="section-heading">Flujos</h2>
+          <p>Pendiente</p>
+        </div>
       </section>
-      <section id="sentencias" style={{ minHeight: '50vh', padding: '64px 24px' }}>
-        <h2>Sentencias</h2>
-        <p>Pendiente</p>
+      <section id="detalles" className="section-dark">
+        <div className="section-inner">
+          <h2 className="section-heading">Detalles</h2>
+          <p>Pendiente</p>
+        </div>
       </section>
-      <section id="propuestas" style={{ minHeight: '50vh', padding: '64px 24px', background: '#0b2a6b', color: '#fff' }}>
-        <h2>Propuestas</h2>
-        <p>Pendiente</p>
+      <section id="equipo" className="section-light">
+        <div className="section-inner">
+          <h2 className="section-heading">Equipo</h2>
+          <p>Pendiente</p>
+        </div>
       </section>
-      <section id="flujos" style={{ minHeight: '50vh', padding: '64px 24px' }}>
-        <h2>Flujos</h2>
-        <p>Pendiente</p>
-      </section>
-      <section id="detalles" style={{ minHeight: '50vh', padding: '64px 24px', background: '#0b2a6b', color: '#fff' }}>
-        <h2>Detalles</h2>
-        <p>Pendiente</p>
-      </section>
-      <section id="equipo" style={{ minHeight: '50vh', padding: '64px 24px' }}>
-        <h2>Equipo</h2>
-        <p>Pendiente</p>
-      </section>
-      <section id="ia" style={{ minHeight: '50vh', padding: '64px 24px', background: '#0b2a6b', color: '#fff' }}>
-        <h2>IA</h2>
-        <p>Pendiente</p>
+      <section id="ia" className="section-dark">
+        <div className="section-inner">
+          <h2 className="section-heading">IA</h2>
+          <p>Pendiente</p>
+        </div>
       </section>
     </Layout>
   )
