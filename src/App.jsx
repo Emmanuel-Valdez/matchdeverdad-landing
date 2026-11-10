@@ -5,6 +5,7 @@ import Propuestas from './components/Propuestas'
 import Flujos from './components/Flujos'
 import Detalles from './components/Detalles'
 import Equipo from './components/Equipo'
+import UsoIA from './components/UsoIA'
 import Footer from './components/Footer'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Flujos />
       <Detalles />
       <Equipo />
+      <UsoIA />
       <Footer />
     </Layout>
   )
