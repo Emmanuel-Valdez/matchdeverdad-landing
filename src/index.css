@@ -174,7 +174,8 @@ main {
 }
 
 .hero-logo {
-  max-width: 450px;
+  max-width: 500px;
+  max-height: 500px;
   width: 100%;
   height: auto;
   animation: fadeInScale 0.8s ease-out;
