@@ -18,7 +18,7 @@ const integrantesIA = [
   {
     nombre: 'Matias Mazzitelli',
     github: 'mdev-repos',
-    herramientas: 'Claude (Anthropic) Sonnet 5 vía Claude Code (plan Pro, pago)',
+    herramientas: 'Claude Code con Sonnet 5.5 y Haiku 5.5',
     destacado: 'Arquitectura y sistema de diseño',
     asistio: [
       'Revisión de la arquitectura del repo: estructura de componentes, separación de concerns',
@@ -32,7 +32,7 @@ const integrantesIA = [
   {
     nombre: 'Martin Savia',
     github: 'martin-2t',
-    herramientas: 'Claude (Anthropic) Sonnet 5 (chat web, gratuito)',
+    herramientas: 'Claude Code con Sonnet 5.5 y Haiku 5.5',
     destacado: 'Scaffold y paleta base',
     asistio: [
       'Scaffold inicial del proyecto: Vite + React, estructura de carpetas',
@@ -46,7 +46,7 @@ const integrantesIA = [
   {
     nombre: 'Maximo Ariel Pereira',
     github: 'PereiraMax',
-    herramientas: 'Claude (Anthropic)',
+    herramientas: 'Claude Code con Sonnet 5.5 y Haiku 5.5',
     destacado: 'Diagramas y validación de sentencias',
     asistio: [
       'Decisiones sobre la sección de Diagramas de Flujo: estructura de nodos, flechas, ramas',
@@ -60,7 +60,7 @@ const integrantesIA = [
   {
     nombre: 'Julian Piedrabuena',
     github: 'juliganSW',
-    herramientas: 'Claude (Anthropic)',
+    herramientas: 'Claude Code con Sonnet 5.5 y Haiku 5.5',
     destacado: 'Análisis inicial',
     asistio: [
       'Elaboración del análisis inicial que sirvió como base para la resolución del trabajo',

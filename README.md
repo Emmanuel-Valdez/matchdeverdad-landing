@@ -6,21 +6,21 @@ Landing page para Matchdeverdad, una plataforma que conecta jugadores con equipo
 
 ## Integrantes
 
-- **Maximiliano Pereira** — [@PereiraMax](https://github.com/PereiraMax)
-- **Juliana Ganczyk** — [@juliganSW](https://github.com/juliganSW)
-- **Martín Fernández** — [@martin-2t](https://github.com/martin-2t)
+- **Maximo Ariel Pereira** — [@PereiraMax](https://github.com/PereiraMax)
+- **Julian Piedrabuena** — [@juliganSW](https://github.com/juliganSW)
+- **Martin Savia** — [@martin-2t](https://github.com/martin-2t)
 - **Emmanuel Valdez** — [@Emmanuel-Valdez](https://github.com/Emmanuel-Valdez)
-- **Matías Dev** — [@mdev-repos](https://github.com/mdev-repos)
+- **Matias Mazzitelli** — [@mdev-repos](https://github.com/mdev-repos)
 
 ## Aplicaciones y modelos de IA utilizados
 
 | Integrante | Aplicación / Modelo |
 |------------|---------------------|
-| @PereiraMax | Modelo no informado |
-| @juliganSW | Modelo no informado |
-| @martin-2t | Modelo no informado |
-| @Emmanuel-Valdez | opencode / DeepSeek 4.1 + Beam free |
-| @mdev-repos | Modelo no informado |
+| @PereiraMax | Claude Code con Sonnet 5.5 y Haiku 5.5 |
+| @juliganSW | Claude Code con Sonnet 5.5 y Haiku 5.5 |
+| @martin-2t | Claude Code con Sonnet 5.5 y Haiku 5.5 |
+| @Emmanuel-Valdez | OpenCode Go con modelos Qwen3.7 y DeepSeek 4.1 |
+| @mdev-repos | Claude Code con Sonnet 5.5 y Haiku 5.5 |
 
 ## Tecnologías
 
