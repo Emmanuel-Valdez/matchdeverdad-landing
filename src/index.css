@@ -371,3 +371,286 @@ main {
 .section-dark p {
   color: var(--body-dark);
 }
+
+.flujos-inner,
+.detalles-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.diagramas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.diagrama-card {
+  background: var(--canvas-light);
+  border: 1px solid var(--hairline-light);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.diagrama-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--font-display);
+  color: var(--ink);
+  margin-bottom: 24px;
+}
+
+.diagrama-pipeline {
+  background: var(--canvas-light);
+  border: 1px solid var(--hairline-light);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 48px;
+}
+
+.diagrama-pipeline h3 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--font-display);
+  color: var(--ink);
+  margin-bottom: 24px;
+}
+
+.flow-diagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.flow-node {
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  min-width: 180px;
+}
+
+.flow-start,
+.flow-end {
+  background: var(--surface-dark-elevated);
+  color: var(--on-dark);
+  border-radius: 999px;
+}
+
+.flow-action {
+  background: var(--canvas-light);
+  color: var(--ink);
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+}
+
+.flow-decision {
+  background: var(--primary);
+  color: var(--ink);
+  border-radius: 8px;
+  font-weight: 600;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  padding: 20px 32px;
+  min-width: 200px;
+}
+
+.flow-human {
+  background: var(--canvas-light);
+  color: var(--ink);
+  border: 2px dashed var(--primary);
+  border-radius: 8px;
+  position: relative;
+}
+
+.flow-tag {
+  display: block;
+  font-size: 11px;
+  color: var(--mute-light);
+  margin-top: 4px;
+  font-style: italic;
+}
+
+.flow-arrow {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.flow-branches {
+  display: flex;
+  gap: 32px;
+  margin-top: 8px;
+}
+
+.flow-branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.flow-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.flow-sub-branches {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.flow-sub-branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.diagrama-leyenda {
+  background: var(--canvas-light);
+  border: 1px solid var(--hairline-light);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.diagrama-leyenda h4 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--font-display);
+  color: var(--ink);
+  margin-bottom: 16px;
+}
+
+.leyenda-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.leyenda-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.leyenda-node {
+  width: 40px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.leyenda-start-end {
+  background: var(--surface-dark-elevated);
+  border-radius: 999px;
+}
+
+.leyenda-action {
+  background: var(--canvas-light);
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+}
+
+.leyenda-decision {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+.leyenda-human {
+  background: var(--canvas-light);
+  border: 2px dashed var(--primary);
+  border-radius: 8px;
+}
+
+.detalle-card {
+  background: var(--surface-dark-elevated);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.detalle-card summary {
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--font-display);
+  color: var(--primary);
+  cursor: pointer;
+  list-style: none;
+  transition: background 0.2s;
+}
+
+.detalle-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.detalle-card summary::before {
+  content: '▶';
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 12px;
+  transition: transform 0.2s;
+}
+
+.detalle-card[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.detalle-card summary:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.detalle-card summary:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: -2px;
+}
+
+.detalle-content {
+  padding: 0 24px 24px 24px;
+}
+
+.detalle-row {
+  margin-bottom: 20px;
+}
+
+.detalle-row h4 {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--font-display);
+  color: var(--on-dark);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detalle-row p {
+  font-size: 15px;
+  color: var(--body-dark);
+  line-height: 1.6;
+}
+
+.detalle-row ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.detalle-row li {
+  font-size: 15px;
+  color: var(--body-dark);
+  line-height: 1.6;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.detalle-row li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+}

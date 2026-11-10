@@ -28,18 +28,18 @@
 
 ## 6. Diagramas de flujo
 
-- [ ] 6.1 Crear sección `#flujos` con fondo canvas-light, contenedor para los dos diagramas lado a lado (o apilados si no hay espacio); verificar que el contenedor no genera overflow horizontal
-- [ ] 6.2 Construir diagrama R3 en HTML/CSS: nodos (rounded-full para inicio/fin, rounded-md para acciones), flechas amarillas (`#f5c400`) con puntas, tag "⚙ diseño" en el nodo "Informa condición fallida", leyenda al pie; verificar que el flujo es legible: inicio → consulta 4 condiciones → decisión → SÍ: solicita enviar → fin; NO: ⚙ informa condición fallida → fin
-- [ ] 6.3 Construir diagrama R4 en HTML/CSS con misma vocabulario de formas; verificar flujo: inicio → consulta 3 condiciones → decisión → SÍ: solicita permiso → autoriza (registra) / rechaza (registra) → fin; NO: ⚙ informa condición fallida → fin
-- [ ] 6.4 Construir diagrama pipeline R4→R3 que muestra la relación entre ambas sentencias; verificar que se entiende: candidato propuesto → R4 (si no consta autorización) → autorización registrada → R3 (si 4 condiciones) → solicita enviar invitación
-- [ ] 6.5 Agregar leyenda general de diagramas que explique: nodos de inicio/fin, nodos de acción, nodos de decisión, intervención humana (borde dashed), y tag "⚙ diseño" = decisión del grupo no derivada de la sentencia; verificar que la leyenda es visible y clara
+- [x] 6.1 Crear sección `#flujos` con fondo canvas-light, contenedor para los dos diagramas lado a lado (o apilados si no hay espacio); verificar que el contenedor no genera overflow horizontal
+- [x] 6.2 Construir diagrama R3 en HTML/CSS: nodos (rounded-full para inicio/fin, rounded-md para acciones), flechas amarillas (`#f5c400`) con puntas, tag "⚙ diseño" en el nodo "Informa condición fallida", leyenda al pie; verificar que el flujo es legible: inicio → consulta 4 condiciones → decisión → SÍ: solicita enviar → fin; NO: ⚙ informa condición fallida → fin
+- [x] 6.3 Construir diagrama R4 en HTML/CSS con misma vocabulario de formas; verificar flujo: inicio → consulta 3 condiciones → decisión → SÍ: solicita permiso → autoriza (registra) / rechaza (registra) → fin; NO: ⚙ informa condición fallida → fin
+- [x] 6.4 Construir diagrama pipeline R4→R3 que muestra la relación entre ambas sentencias; verificar que se entiende: candidato propuesto → R4 (si no consta autorización) → autorización registrada → R3 (si 4 condiciones) → solicita enviar invitación
+- [x] 6.5 Agregar leyenda general de diagramas que explique: nodos de inicio/fin, nodos de acción, nodos de decisión, intervención humana (borde dashed), y tag "⚙ diseño" = decisión del grupo no derivada de la sentencia; verificar que la leyenda es visible y clara
 
 ## 7. Desplegables de detalles
 
-- [ ] 7.1 Crear sección `#detalles` con fondo canvas-dark, dos `<details>` nativos (uno por propuesta) con `<summary>` estilizado como botón pill; verificar que cada desplegable se abre/cierra con clic
-- [ ] 7.2 Agregar contenido detallado dentro de cada `<details>`: datos de entrada, condición, acción propuesta, resultado esperado, excepciones, intervención humana, casos de prueba (cumple/no cumple), decisiones de diseño del grupo; verificar que el contenido es legible sobre fondo oscuro
-- [ ] 7.3 Verificar que los `<details>` son operables con teclado: Tab hasta el `<summary>`, Enter o Space para abrir/cerrar; verificar que funciona sin JavaScript
-- [ ] 7.4 Agregar `:focus-visible` con estilo visible (ej. ring amarillo 2px) a los `<summary>`; verificar que el foco es visible al navegar con Tab
+- [x] 7.1 Crear sección `#detalles` con fondo canvas-dark, dos `<details>` nativos (uno por propuesta) con `<summary>` estilizado como botón pill; verificar que cada desplegable se abre/cierra con clic
+- [x] 7.2 Agregar contenido detallado dentro de cada `<details>`: datos de entrada, condición, acción propuesta, resultado esperado, excepciones, intervención humana, casos de prueba (cumple/no cumple), decisiones de diseño del grupo; verificar que el contenido es legible sobre fondo oscuro
+- [x] 7.3 Verificar que los `<details>` son operables con teclado: Tab hasta el `<summary>`, Enter o Space para abrir/cerrar; verificar que funciona sin JavaScript
+- [x] 7.4 Agregar `:focus-visible` con estilo visible (ej. ring amarillo 2px) a los `<summary>`; verificar que el foco es visible al navegar con Tab
 
 ## 8. Equipo y registry de IA
 
