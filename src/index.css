@@ -654,3 +654,130 @@ main {
   left: 0;
   color: var(--primary);
 }
+
+.equipo-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.equipo-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.equipo-item {
+  background: var(--canvas-light);
+  border: 1px solid var(--hairline-light);
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.equipo-nombre {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+  font-family: var(--font-display);
+}
+
+.equipo-github {
+  font-size: 14px;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.equipo-github:hover {
+  text-decoration: underline;
+}
+
+.equipo-github:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.ia-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface-dark-elevated);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ia-table th,
+.ia-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--hairline-dark);
+}
+
+.ia-table th {
+  background: var(--canvas-dark);
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ia-table td {
+  font-size: 15px;
+  color: var(--body-dark);
+}
+
+.ia-table tr:last-child td {
+  border-bottom: none;
+}
+
+.site-footer {
+  background: var(--canvas-dark);
+  padding: 32px var(--gutter);
+  border-top: 1px solid var(--hairline-dark);
+}
+
+.footer-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-link {
+  color: var(--on-dark);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 0;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: var(--primary);
+}
+
+.footer-link:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.footer-entrega {
+  font-size: 14px;
+  color: var(--mute-dark);
+}

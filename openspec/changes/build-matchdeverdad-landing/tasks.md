@@ -43,37 +43,37 @@
 
 ## 8. Equipo y registry de IA
 
-- [ ] 8.1 Crear sección `#equipo` con fondo canvas-light, lista de los 5 integrantes con nombre y usuario de GitHub (PereiraMax, juliganSW, martin-2t, Emmanuel-Valdez, mdev-repos); verificar que todos aparecen
-- [ ] 8.2 Crear sección `#ia` (puede ser parte de `#equipo` o separada) con tabla o lista de aplicaciones y modelos de IA por integrante; verificar que Emmanuel tiene "opencode / DeepSeek 4.1 + Beam free" y los demás tienen "modelo no informado" hasta que el grupo complete la info
+- [x] 8.1 Crear sección `#equipo` con fondo canvas-light, lista de los 5 integrantes con nombre y usuario de GitHub (PereiraMax, juliganSW, martin-2t, Emmanuel-Valdez, mdev-repos); verificar que todos aparecen
+- [x] 8.2 Crear sección `#ia` (puede ser parte de `#equipo` o separada) con tabla o lista de aplicaciones y modelos de IA por integrante; verificar que Emmanuel tiene "opencode / DeepSeek 4.1 + Beam free" y los demás tienen "modelo no informado" hasta que el grupo complete la info
 
 ## 9. Footer
 
-- [ ] 9.1 Crear footer con fondo canvas-dark, enlaces al repositorio público y a la landing publicada en Netlify (URLs a completar cuando estén disponibles); verificar que los enlaces son clickeables y tienen `:focus-visible`
-- [ ] 9.2 Agregar texto "Entrega 26/11/2026" en el footer; verificar que es visible
+- [x] 9.1 Crear footer con fondo canvas-dark, enlaces al repositorio público y a la landing publicada en Netlify (URLs a completar cuando estén disponibles); verificar que los enlaces son clickeables y tienen `:focus-visible`
+- [x] 9.2 Agregar texto "Entrega 26/11/2026" en el footer; verificar que es visible
 
 ## 10. Estilos globales y sistema de diseño
 
-- [ ] 10.1 Definir variables CSS en `:root` para la paleta (canvas-dark, canvas-light, primary, primary-pressed, surface-dark-elevated, ink, body-light, mute-light, on-dark, body-dark, mute-dark, hairline-light, hairline-dark); verificar que los colores se aplican correctamente en cada sección
-- [ ] 10.2 Definir tipografía global: Cabinet Grotesk para headings (display-xl 54px/300, heading-lg 28px/300, heading-md 18px/600), Manrope para body (body-md 18px/400/1.5, body-sm 16px/400); verificar que los tamaños y pesos se aplican
-- [ ] 10.3 Definir sistema de espaciado: section gap 64px, card padding 24px, gutter 24px; verificar que las secciones tienen el ritmo correcto
-- [ ] 10.4 Agregar `@media (prefers-reduced-motion: reduce)` que desactiva animaciones y transiciones; verificar que funciona con la preferencia del sistema activada
-- [ ] 10.5 Verificar que no hay desbordes horizontales en viewport ≥1280px; verificar con viewport de 1280px, 1440px y 1920px
+- [x] 10.1 Definir variables CSS en `:root` para la paleta (canvas-dark, canvas-light, primary, primary-pressed, surface-dark-elevated, ink, body-light, mute-light, on-dark, body-dark, mute-dark, hairline-light, hairline-dark); verificar que los colores se aplican correctamente en cada sección
+- [x] 10.2 Definir tipografía global: Cabinet Grotesk para headings (display-xl 54px/300, heading-lg 28px/300, heading-md 18px/600), Manrope para body (body-md 18px/400/1.5, body-sm 16px/400); verificar que los tamaños y pesos se aplican
+- [x] 10.3 Definir sistema de espaciado: section gap 64px, card padding 24px, gutter 24px; verificar que las secciones tienen el ritmo correcto
+- [x] 10.4 Agregar `@media (prefers-reduced-motion: reduce)` que desactiva animaciones y transiciones; verificar que funciona con la preferencia del sistema activada
+- [x] 10.5 Verificar que no hay desbordes horizontales en viewport ≥1280px; verificar con viewport de 1280px, 1440px y 1920px
 
 ## 11. Accesibilidad
 
-- [ ] 11.1 Verificar contraste de texto: amarillo `#f5c400` sobre azul `#0b2a6b` (debe ser ≥4.5:1 para texto normal, ≥3:1 para texto grande); verificar con herramienta de contraste
-- [ ] 11.2 Verificar que todos los elementos interactivos (enlaces, botones, `<summary>`) tienen `:focus-visible` con estilo visible (no `outline: none`); verificar navegando con Tab
-- [ ] 11.3 Verificar target size mínimo 24x24px para todos los elementos interactivos; verificar que botones y enlaces cumplen
-- [ ] 11.4 Verificar que el skip link aparece al presionar Tab al cargar la página y lleva el foco al contenido principal; verificar con teclado
-- [ ] 11.5 Verificar que los `<details>` se operan con Enter y Space; verificar con teclado
+- [x] 11.1 Verificar contraste de texto: amarillo `#f5c400` sobre azul `#0b2a6b` (debe ser ≥4.5:1 para texto normal, ≥3:1 para texto grande); verificar con herramienta de contraste
+- [x] 11.2 Verificar que todos los elementos interactivos (enlaces, botones, `<summary>`) tienen `:focus-visible` con estilo visible (no `outline: none`); verificar navegando con Tab
+- [x] 11.3 Verificar target size mínimo 24x24px para todos los elementos interactivos; verificar que botones y enlaces cumplen
+- [x] 11.4 Verificar que el skip link aparece al presionar Tab al cargar la página y lleva el foco al contenido principal; verificar con teclado
+- [x] 11.5 Verificar que los `<details>` se operan con Enter y Space; verificar con teclado
 
 ## 12. Documentación (README)
 
-- [ ] 12.1 Crear `README.md` con: descripción del proyecto, integrantes y aportes (a completar por el grupo), startup y bloque, aplicaciones y modelos de IA utilizados, enlaces al repositorio y landing publicada; verificar que el archivo existe y tiene las secciones requeridas
-- [ ] 12.2 Agregar instrucciones de desarrollo: `npm install`, `npm run dev`, `npm run build`; verificar que los comandos funcionan
+- [x] 12.1 Crear `README.md` con: descripción del proyecto, integrantes y aportes (a completar por el grupo), startup y bloque, aplicaciones y modelos de IA utilizados, enlaces al repositorio y landing publicada; verificar que el archivo existe y tiene las secciones requeridas
+- [x] 12.2 Agregar instrucciones de desarrollo: `npm install`, `npm run dev`, `npm run build`; verificar que los comandos funcionan
 
 ## 13. Deploy y verificación final
 
-- [ ] 13.1 Configurar Netlify para deploy estático desde carpeta `dist` (build command: `npm run build`); verificar que el deploy inicial funciona
-- [ ] 13.2 Verificar la landing en una ventana de incógnito (sin sesión): logo completo visible, sentencias legibles, propuestas claras, diagramas legibles, desplegables funcionan con clic y teclado, sin desbordes horizontales, enlaces del footer abren correctamente; verificar checklist completo
-- [ ] 13.3 Verificar que el repositorio es público y el enlace en el README abre correctamente desde una ventana sin sesión; verificar acceso anónimo
+- [x] 13.1 Configurar Netlify para deploy estático desde carpeta `dist` (build command: `npm run build`); verificar que el deploy inicial funciona
+- [x] 13.2 Verificar la landing en una ventana de incógnito (sin sesión): logo completo visible, sentencias legibles, propuestas claras, diagramas legibles, desplegables funcionan con clic y teclado, sin desbordes horizontales, enlaces del footer abren correctamente; verificar checklist completo
+- [x] 13.3 Verificar que el repositorio es público y el enlace en el README abre correctamente desde una ventana sin sesión; verificar acceso anónimo

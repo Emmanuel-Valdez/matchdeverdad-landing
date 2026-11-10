@@ -1,16 +1,76 @@
-# React + Vite
+# Matchdeverdad — Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Landing page para Matchdeverdad, una plataforma que conecta jugadores con equipos de fútbol 5.
 
-Currently, two official plugins are available:
+**Grupo 26 · IFTS 29 · 2026**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Integrantes
 
-## React Compiler
+- **Maximiliano Pereira** — [@PereiraMax](https://github.com/PereiraMax)
+- **Juliana Ganczyk** — [@juliganSW](https://github.com/juliganSW)
+- **Martín Fernández** — [@martin-2t](https://github.com/martin-2t)
+- **Emmanuel Valdez** — [@Emmanuel-Valdez](https://github.com/Emmanuel-Valdez)
+- **Matías Dev** — [@mdev-repos](https://github.com/mdev-repos)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Aplicaciones y modelos de IA utilizados
 
-## Expanding the Oxlint configuration
+| Integrante | Aplicación / Modelo |
+|------------|---------------------|
+| @PereiraMax | Modelo no informado |
+| @juliganSW | Modelo no informado |
+| @martin-2t | Modelo no informado |
+| @Emmanuel-Valdez | opencode / DeepSeek 4.1 + Beam free |
+| @mdev-repos | Modelo no informado |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tecnologías
+
+- **React 19** + **Vite 8**
+- **Google Fonts**: Cabinet Grotesk (headings) + Manrope (body)
+- **CSS**: Custom properties, grid, flexbox
+- **Accesibilidad**: WCAG 2.1 AA, skip links, focus-visible, keyboard navigation
+
+## Desarrollo
+
+### Instalación
+
+```bash
+npm install
+```
+
+### Servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+Abre [http://localhost:5173](http://localhost:5173) en tu navegador.
+
+### Build para producción
+
+```bash
+npm run build
+```
+
+Genera los archivos optimizados en `dist/`.
+
+### Preview del build
+
+```bash
+npm run preview
+```
+
+## Deploy
+
+Este proyecto está configurado para deploy estático en Netlify.
+
+- **Build command**: `npm run build`
+- **Publish directory**: `dist`
+
+## Enlaces
+
+- **Repositorio**: [GitHub](https://github.com/)
+- **Landing publicada**: [Netlify](https://netlify.com/)
+
+## Entrega
+
+**Fecha**: 26/11/2026

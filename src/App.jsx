@@ -4,6 +4,8 @@ import Sentencias from './components/Sentencias'
 import Propuestas from './components/Propuestas'
 import Flujos from './components/Flujos'
 import Detalles from './components/Detalles'
+import Equipo from './components/Equipo'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -13,18 +15,8 @@ function App() {
       <Propuestas />
       <Flujos />
       <Detalles />
-      <section id="equipo" className="section-light">
-        <div className="section-inner">
-          <h2 className="section-heading">Equipo</h2>
-          <p>Pendiente</p>
-        </div>
-      </section>
-      <section id="ia" className="section-dark">
-        <div className="section-inner">
-          <h2 className="section-heading">IA</h2>
-          <p>Pendiente</p>
-        </div>
-      </section>
+      <Equipo />
+      <Footer />
     </Layout>
   )
 }
