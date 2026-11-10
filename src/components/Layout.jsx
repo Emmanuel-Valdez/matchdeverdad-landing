@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 
 const navLinks = [
   { href: '#inicio', label: 'Inicio' },
@@ -12,12 +12,22 @@ const navLinks = [
 
 function Layout({ children }) {
   const [scrolled, setScrolled] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20)
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  const closeMenu = useCallback(() => setMenuOpen(false), [])
+
+  useEffect(() => {
+    if (!menuOpen) return
+    const handler = (e) => { if (e.key === 'Escape') closeMenu() }
+    document.addEventListener('keydown', handler)
+    return () => document.removeEventListener('keydown', handler)
+  }, [menuOpen, closeMenu])
 
   return (
     <>
@@ -30,15 +40,30 @@ function Layout({ children }) {
             <span className="wordmark">Matchdeverdad</span>
             <span className="header-tag">Grupo 26</span>
           </div>
-          <nav className="header-nav">
+          <button
+            className={`hamburger ${menuOpen ? 'open' : ''}`}
+            onClick={() => setMenuOpen((v) => !v)}
+            aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
+            aria-expanded={menuOpen}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+          <nav className={`header-nav ${menuOpen ? 'open' : ''}`}>
             {navLinks.map((link) => (
-              <a key={link.href} href={link.href}>
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={closeMenu}
+              >
                 {link.label}
               </a>
             ))}
           </nav>
         </div>
       </header>
+      {menuOpen && <div className="nav-backdrop" onClick={closeMenu} />}
       <main id="main-content">{children}</main>
     </>
   )
