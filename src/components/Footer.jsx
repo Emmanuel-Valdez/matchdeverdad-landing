@@ -4,23 +4,14 @@ function Footer() {
       <div className="footer-inner">
         <div className="footer-links">
           <a
-            href="https://github.com/"
+            href="https://github.com/Emmanuel-Valdez/matchdeverdad-landing"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"
           >
             Repositorio público
           </a>
-          <a
-            href="https://netlify.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="footer-link"
-          >
-            Landing en Netlify
-          </a>
         </div>
-        <p className="footer-entrega">Entrega 26/11/2026</p>
       </div>
     </footer>
   )
