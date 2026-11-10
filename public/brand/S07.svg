@@ -1,8 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <rect width="400" height="400" fill="#0b2a6b"/>
-  <rect x="80" y="60" width="240" height="160" rx="8" fill="none" stroke="#f5c400" stroke-width="3"/>
-  <line x1="200" y1="60" x2="200" y2="220" stroke="#f5c400" stroke-width="2"/>
-  <circle cx="200" cy="140" r="30" fill="none" stroke="#f5c400" stroke-width="2"/>
-  <text x="200" y="280" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="#ffffff">Matchdeverdad</text>
-  <text x="200" y="310" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#f5c400">Fútbol 5 · Completá tu partido</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 160">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b2a6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#123c8c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ballGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5c400;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd84d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="450" height="160" fill="url(#bgGrad)" rx="12"/>
+  
+  <!-- Soccer ball icon -->
+  <g transform="translate(40, 40)">
+    <!-- Main circle -->
+    <circle cx="40" cy="40" r="35" fill="url(#ballGrad)" stroke="#0b2a6b" stroke-width="2"/>
+    
+    <!-- Pentagon pattern (simplified) -->
+    <path d="M 40 15 L 52 25 L 48 38 L 32 38 L 28 25 Z" fill="#0b2a6b"/>
+    <path d="M 52 25 L 65 30 L 62 45 L 48 38 Z" fill="#0b2a6b" opacity="0.7"/>
+    <path d="M 48 38 L 62 45 L 55 58 L 40 55 L 32 38 Z" fill="#0b2a6b" opacity="0.5"/>
+    <path d="M 32 38 L 40 55 L 25 58 L 18 45 L 28 25 Z" fill="#0b2a6b" opacity="0.7"/>
+    <path d="M 28 25 L 18 45 L 10 35 L 15 22 Z" fill="#0b2a6b" opacity="0.6"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="130" y="85" font-family="'Cabinet Grotesk', system-ui, sans-serif" font-size="36" font-weight="700" fill="#ffffff">
+    Matchdeverdad
+  </text>
+  
+  <!-- Tagline -->
+  <text x="130" y="115" font-family="'Manrope', system-ui, sans-serif" font-size="14" font-weight="500" fill="#f5c400">
+    Fútbol 5 · Completá tu partido
+  </text>
 </svg>

@@ -150,8 +150,10 @@ main {
 @media (prefers-reduced-motion: reduce) {
   .skip-link,
   .site-header,
-  .header-nav a {
+  .header-nav a,
+  .hero-logo {
     transition: none;
+    animation: none;
   }
 }
 
@@ -175,6 +177,18 @@ main {
   max-width: 450px;
   width: 100%;
   height: auto;
+  animation: fadeInScale 0.8s ease-out;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .hero-title {
