@@ -7,9 +7,9 @@
 
 ## 2. Estructura base y navegación
 
-- [ ] 2.1 Crear componente `Layout` con header fijo (wordmark "Matchdeverdad" en Cabinet Grotesk + etiqueta "Grupo 26") y main content area; verificar que el header es visible al hacer scroll
-- [ ] 2.2 Agregar navegación por anclas en el header (`#inicio`, `#sentencias`, `#propuestas`, `#flujos`, `#detalles`, `#equipo`, `#ia`) con scroll suave (`scroll-behavior: smooth` en CSS) y verificar que cada enlace lleva a su sección
-- [ ] 2.3 Agregar skip link ("Saltar al contenido") que aparece con Tab y lleva al main; verificar que funciona con teclado
+- [x] 2.1 Crear componente `Layout` con header fijo (wordmark "Matchdeverdad" en Cabinet Grotesk + etiqueta "Grupo 26") y main content area; verificar que el header es visible al hacer scroll
+- [x] 2.2 Agregar navegación por anclas en el header (`#inicio`, `#sentencias`, `#propuestas`, `#flujos`, `#detalles`, `#equipo`, `#ia`) con scroll suave (`scroll-behavior: smooth` en CSS) y verificar que cada enlace lleva a su sección
+- [x] 2.3 Agregar skip link ("Saltar al contenido") que aparece con Tab y lleva al main; verificar que funciona con teclado
 
 ## 3. Hero / Presentación de startup
 
