@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#0b2a6b"/>
+  <rect x="80" y="60" width="240" height="160" rx="8" fill="none" stroke="#f5c400" stroke-width="3"/>
+  <line x1="200" y1="60" x2="200" y2="220" stroke="#f5c400" stroke-width="2"/>
+  <circle cx="200" cy="140" r="30" fill="none" stroke="#f5c400" stroke-width="2"/>
+  <text x="200" y="280" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="#ffffff">Matchdeverdad</text>
+  <text x="200" y="310" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#f5c400">Fútbol 5 · Completá tu partido</text>
+</svg>
