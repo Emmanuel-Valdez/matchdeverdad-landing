@@ -1,9 +1,9 @@
 const integrantes = [
-  { nombre: 'Maximiliano Pereira', github: 'PereiraMax', ia: 'Modelo no informado' },
-  { nombre: 'Juliana Ganczyk', github: 'juliganSW', ia: 'Modelo no informado' },
-  { nombre: 'Martín Fernández', github: 'martin-2t', ia: 'Modelo no informado' },
+  { nombre: 'Maximo Ariel Pereira', github: 'PereiraMax', ia: 'Modelo no informado' },
+  { nombre: 'Julian Piedrabuena', github: 'juliganSW', ia: 'Modelo no informado' },
+  { nombre: 'Martin Savia', github: 'martin-2t', ia: 'Modelo no informado' },
   { nombre: 'Emmanuel Valdez', github: 'Emmanuel-Valdez', ia: 'opencode / DeepSeek 4.1 + Beam free' },
-  { nombre: 'Matías Dev', github: 'mdev-repos', ia: 'Modelo no informado' },
+  { nombre: 'Matias Mazzitelli', github: 'mdev-repos', ia: 'Modelo no informado' },
 ]
 
 function Equipo() {
