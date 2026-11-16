@@ -11,6 +11,14 @@ function Footer() {
           >
             Repositorio público
           </a>
+          <a
+            href="https://matchdeverdad.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            Landing publicada
+          </a>
         </div>
       </div>
     </footer>

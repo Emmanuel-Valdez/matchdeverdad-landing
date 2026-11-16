@@ -12,6 +12,18 @@ Landing page para Matchdeverdad, una plataforma que conecta jugadores con equipo
 - **Emmanuel Valdez** — [@Emmanuel-Valdez](https://github.com/Emmanuel-Valdez)
 - **Matias Mazzitelli** — [@mdev-repos](https://github.com/mdev-repos)
 
+## Aporte concreto de cada integrante
+
+Cada integrante completa su fila con lo que hizo realmente (por ejemplo: coordinó las instrucciones al agente, revisó sentencias y flujos, probó la página, preparó la publicación). Pueden rotar tareas.
+
+| Integrante | Aporte concreto |
+|------------|-----------------|
+| @PereiraMax | _A completar_ |
+| @juliganSW | _A completar_ |
+| @martin-2t | _A completar_ |
+| @Emmanuel-Valdez | _A completar_ |
+| @mdev-repos | _A completar_ |
+
 ## Aplicaciones y modelos de IA utilizados
 
 | Integrante | Aplicación / Modelo |
@@ -25,7 +37,7 @@ Landing page para Matchdeverdad, una plataforma que conecta jugadores con equipo
 ## Tecnologías
 
 - **React 19** + **Vite 8**
-- **Google Fonts**: Cabinet Grotesk (headings) + Manrope (body)
+- **Tipografías**: Cabinet Grotesk (títulos, vía Fontshare) + Manrope (texto, vía Google Fonts)
 - **CSS**: Custom properties, grid, flexbox
 - **Accesibilidad**: WCAG 2.1 AA, skip links, focus-visible, keyboard navigation
 

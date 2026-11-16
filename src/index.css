@@ -35,8 +35,8 @@ html {
   --mute-dark: #a0a0a0;
   --hairline-light: rgba(11, 42, 107, 0.12);
   --hairline-dark: rgba(255, 255, 255, 0.12);
-  --font-display: 'Cabinet Grotesk', sans-serif;
-  --font-body: 'Manrope', sans-serif;
+  --font-display: 'Cabinet Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-body: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --section-gap: 64px;
   --card-padding: 24px;
   --gutter: 24px;
