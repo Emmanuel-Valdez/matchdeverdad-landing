@@ -16,28 +16,23 @@ Landing page para Matchdeverdad, una plataforma que conecta jugadores con equipo
 
 Cada integrante completa su fila con lo que hizo realmente (por ejemplo: coordinó las instrucciones al agente, revisó sentencias y flujos, probó la página, preparó la publicación). Pueden rotar tareas.
 
-| Integrante | Aporte concreto |
-|------------|-----------------|
-| @PereiraMax |1. Fuentes (index.html, src/index.css)
+ Aporte concreto 
+ @PereiraMax 1. Fuentes (index.html, src/index.css) Cabinet Grotesk ahora se carga desde Fontshare, con los pesos 300, 400, 500 y 700.
+                Manrope sigue en Google Fonts, en un enlace aparte, con los pesos 400, 500 y 600. Así, si falla una fuente, la otra se carga igual.
+                Agregué fuentes de respaldo del sistema en el CSS. El CSS usa peso 600 en varios títulos. Cabinet Grotesk no tiene 600, así que el navegador lo muestra con 700 y se ven                  apenas más pesados.
 
-Cabinet Grotesk ahora se carga desde Fontshare, con los pesos 300, 400, 500 y 700.
-Manrope sigue en Google Fonts, en un enlace aparte, con los pesos 400, 500 y 600. Así, si falla una fuente, la otra se carga igual.
-Agregué fuentes de respaldo del sistema en el CSS.
-El CSS usa peso 600 en varios títulos. Cabinet Grotesk no tiene 600, así que el navegador lo muestra con 700 y se ven apenas más pesados.
+            2. README (README.md)Agregué la sección «Aporte concreto de cada integrante», con una fila por persona.
+               Dejé cada fila como «A completar» a propósito. No sé qué hizo cada uno y no quiero inventarlo; la consigna pide que lo registren ustedes.
+               Corregí también la mención a las tipografías, que decía «Google Fonts» para las dos.
 
-2. README (README.md)
-
-Agregué la sección «Aporte concreto de cada integrante», con una fila por persona.
-Dejé cada fila como «A completar» a propósito. No sé qué hizo cada uno y no quiero inventarlo; la consigna pide que lo registren ustedes.
-Corregí también la mención a las tipografías, que decía «Google Fonts» para las dos.
-
-4. Footer (src/components/Footer.jsx)
-
-Sumé el enlace «Landing publicada» a https://matchdeverdad.netlify.app/, junto al del repositorio. Usa los mismos estilos y foco por teclado que el otro. |
-| @juliganSW | _A completar_ |
-| @martin-2t | _A completar_ |
-| @Emmanuel-Valdez | _A completar_ |
-| @mdev-repos | _A completar_ |
+            4. Footer (src/components/Footer.jsx) Sumé el enlace «Landing publicada» a https://matchdeverdad.netlify.app/, junto al del repositorio. Usa los mismos estilos y foco por                   teclado que el otro. 
+ @juliganSW  _A completar_
+ 
+ @martin-2t  _A completar_ 
+ 
+ @Emmanuel-Valdez  _A completar_ 
+ 
+ @mdev-repos  _A completar_ 
 
 ## Aplicaciones y modelos de IA utilizados
 
